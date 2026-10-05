@@ -1,0 +1,276 @@
+.footer-container {
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.contant-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.brand-name-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.footer-brand-name {
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  color: #ff00ff;
+  margin-bottom: 10px;
+}
+
+.footer-motor {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.contant-details h3 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ff00ff;
+  font-weight: 400;
+}
+
+.facebook-container,
+.whatsapp-container,
+.instagram-container,
+.tiktok-container {
+  display: flex;
+  flex-direction: row;
+  /* logo and text side by side */
+  flex-wrap: nowrap;
+  /* never drop to the next line */
+  align-items: center;
+  gap: 8px;
+  /* space between logo and text */
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contant-details img {
+  display: block;
+  /* removes the small gap images get under them */
+  width: 25px;
+  height: 25px;
+}
+
+.facebook-container a,
+.whatsapp-container a,
+.instagram-container a,
+.tiktok-container a {
+  display: inline-flex;
+  /* stops a global "a { display: block }" from stacking them */
+  align-items: center;
+  width: auto;
+  /* stops a global "a { width: 100% }" from stretching them */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+hr {
+  width: 100%;
+  height: 1.2px;
+  border: none;
+  background-color: #ff00ff;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-bottom p,
+.footer-bottom a {
+  margin: 0;
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-bottom div {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-bottom a:hover {
+  color: #ff00ff;
+}
+
+/* ---------- 1100px and below ---------- */
+@media (max-width: 1100px) {
+  .footer-container {
+    height: auto;
+    padding: 18px 4%;
+  }
+
+  .contant-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 3%;
+  }
+
+  .footer-logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .footer-brand-name {
+    font-size: 27px;
+    margin-bottom: 8px;
+  }
+
+  .footer-motor {
+    font-size: 14px;
+  }
+
+  .contant-details h3 {
+    font-size: 22px;
+  }
+
+  .facebook-container a,
+  .whatsapp-container a,
+  .instagram-container a,
+  .tiktok-container a {
+    font-size: 16px;
+  }
+
+  .contant-details img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* ---------- 760px and below ---------- */
+@media (max-width: 760px) {
+  .footer-container {
+    padding: 16px 4%;
+  }
+
+  .contant-container {
+    gap: 14px;
+    padding: 0;
+  }
+
+  .footer-logo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .footer-brand-name {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+
+  .footer-motor {
+    font-size: 12px;
+  }
+
+  .contant-details h3 {
+    font-size: 18px;
+    margin: 0 0 8px;
+  }
+
+  .facebook-container,
+  .whatsapp-container,
+  .instagram-container,
+  .tiktok-container {
+    gap: 7px;
+    margin-bottom: 4px;
+  }
+
+  .facebook-container a,
+  .whatsapp-container a,
+  .instagram-container a,
+  .tiktok-container a {
+    font-size: 14px;
+  }
+
+  .contant-details img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-bottom div {
+    gap: 14px;
+  }
+}
+
+/* ---------- 460px and below ---------- */
+@media (max-width: 460px) {
+  .footer-container {
+    padding: 14px 4%;
+  }
+
+  .contant-container {
+    gap: 10px;
+  }
+
+  .brand-name-logo {
+    flex-direction: column;
+    /* logo above the name, still on the left side */
+    align-items: flex-start;
+  }
+
+  .footer-logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .footer-brand-name {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+
+  .footer-motor {
+    font-size: 11px;
+  }
+
+  .contant-details h3 {
+    font-size: 15px;
+    margin: 0 0 6px;
+  }
+
+  .facebook-container,
+  .whatsapp-container,
+  .instagram-container,
+  .tiktok-container {
+    gap: 6px;
+    margin-bottom: 3px;
+  }
+
+  .facebook-container a,
+  .whatsapp-container a,
+  .instagram-container a,
+  .tiktok-container a {
+    font-size: 13px;
+  }
+
+  .contant-details img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-bottom p,
+  .footer-bottom a {
+    font-size: 11px;
+  }
+
+  .footer-bottom div {
+    gap: 10px;
+  }
+}
