@@ -273,6 +273,83 @@
   font-weight: 700;
 }
 
+/* Tele block */
+/* contact block */
+.card-tele {
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 0, 255, 0.25);
+  max-width: 550px;
+}
+
+.card-tele h5 {
+  margin: 0 0 14px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #ff00ff;
+}
+
+.tele-cards {
+  display: flex;
+  gap: 14px;
+}
+
+.tele-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid rgba(255, 0, 255, 0.2);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #1a1a22;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.tele-card:hover {
+  transform: translateY(-3px);
+  border-color: #ff00ff;
+  box-shadow: 0 10px 20px rgba(255, 0, 255, 0.18);
+}
+
+.tele-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ff00ff;
+  color: #fff;
+}
+
+.tele-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tele-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.tele-info small {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: black;
+}
+
+.tele-info strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .services-container {
   display: grid;
   grid-template-columns: 500px 1fr;
@@ -776,6 +853,10 @@
     font-size: 14px;
   }
 
+  .about-tele {
+    max-width: 100%;
+  }
+
   /* services + about */
   .our-services h2,
   .about-text h2 {
@@ -895,6 +976,17 @@
   .right-side ul {
     grid-template-columns: 1fr;
     max-width: 220px;
+  }
+
+  .tele-cards {
+    flex-direction: column;
+    place-items: center;
+    width: 450px;
+  }
+
+  /* cards stack, one per row */
+  .tele-info strong {
+    font-size: 14px;
   }
 
   .right-side li {
