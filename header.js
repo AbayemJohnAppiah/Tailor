@@ -2,7 +2,7 @@
 
 document.getElementById("img-container").innerHTML = "<a href='index.html'><img src='images/icon/logo.png' class='logo'></a>"
 
-document.getElementById("nav").innerHTML = "<a href='index.html'>Home</a><a href='index.html#services-container'>Service</a><a href='index.html#about'>About</a><a href='index.html#contant'>Contant</a><a href='gallery.html'>Gallery</a>"
+document.getElementById("nav").innerHTML = "<a href='index.html'>Home</a><a href='index.html#services-container'>Service</a><a href='index.html#about'>About</a><a href='index.html#contact'>Contact</a><a href='gallery.html'>Gallery</a>"
 
 
 const header = document.querySelector("header");
