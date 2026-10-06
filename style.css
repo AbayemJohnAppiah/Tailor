@@ -981,7 +981,6 @@
   .tele-cards {
     flex-direction: column;
     place-items: center;
-    width: 450px;
   }
 
   /* cards stack, one per row */
