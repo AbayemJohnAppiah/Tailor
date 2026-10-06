@@ -79,4 +79,9 @@ document.querySelectorAll(".reveal").forEach((el) => {
 
   watcher.observe(el.parentElement);
 });
+/* right-side of cards*/
+/* the-move-up-text */
+document.getElementById("the-move-up-text").innerHTML = "<h2 class='moveup'>Dressed in a fit <em>that feels like you</em></h2><p class='lead moveup'>From bold Ankara co-ords to sharp everyday pieces, every outfit is cut, stitched and finished around your measurements, so it fits right and looks even better.</p><ul class='moveup'><li>Premium fabrics</li><li>Perfect fitting</li><li>Unique designs</li><li>On-time delivery</li></ul>"
 
+/* NEW: Tele block */
+document.getElementById("card-tele").innerHTML = "<h5>Call or book a fitting</h5><div class='tele-cards' ><a href='https://wa.me/233553169272' class='tele-card'><span class='tele-icon'><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z' /></svg></span><span class='tele-info'><small>whatsapp us</small><strong>+233 55 316 9272</strong></span></a><a href='tel:+233553169272' class='tele-card'><span class='tele-icon'><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z' /></svg></span><span class='tele-info'><small>Call / WhatsApp</small><strong>+971 56 902 9082</strong></span></a></div >"
