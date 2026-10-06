@@ -5,7 +5,7 @@
   padding: 0 5%;
 }
 
-.contant-container {
+.contact-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@
   font-style: italic;
 }
 
-.contant-details h3 {
+.contact-details h3 {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #ff00ff;
@@ -57,7 +57,7 @@
   margin-bottom: 5px;
 }
 
-.contant-details img {
+.contact-details img {
   display: block;
   /* removes the small gap images get under them */
   width: 25px;
@@ -117,7 +117,7 @@ hr {
     padding: 18px 4%;
   }
 
-  .contant-container {
+  .contact-container {
     flex-wrap: nowrap;
     justify-content: space-between;
     gap: 24px;
@@ -138,7 +138,7 @@ hr {
     font-size: 14px;
   }
 
-  .contant-details h3 {
+  .contact-details h3 {
     font-size: 22px;
   }
 
@@ -149,7 +149,7 @@ hr {
     font-size: 16px;
   }
 
-  .contant-details img {
+  .contact-details img {
     width: 24px;
     height: 24px;
   }
@@ -161,7 +161,7 @@ hr {
     padding: 16px 4%;
   }
 
-  .contant-container {
+  .contact-container {
     gap: 14px;
     padding: 0;
   }
@@ -180,7 +180,7 @@ hr {
     font-size: 12px;
   }
 
-  .contant-details h3 {
+  .contact-details h3 {
     font-size: 18px;
     margin: 0 0 8px;
   }
@@ -200,7 +200,7 @@ hr {
     font-size: 14px;
   }
 
-  .contant-details img {
+  .contact-details img {
     width: 20px;
     height: 20px;
   }
@@ -216,7 +216,7 @@ hr {
     padding: 14px 4%;
   }
 
-  .contant-container {
+  .contact-container {
     gap: 10px;
   }
 
@@ -240,7 +240,7 @@ hr {
     font-size: 11px;
   }
 
-  .contant-details h3 {
+  .contact-details h3 {
     font-size: 15px;
     margin: 0 0 6px;
   }
@@ -260,7 +260,7 @@ hr {
     font-size: 13px;
   }
 
-  .contant-details img {
+  .contact-details img {
     width: 18px;
     height: 18px;
   }
