@@ -3,7 +3,7 @@
 document.getElementById("track").innerHTML = "<img src='images/PHOTO-2026-10-05-17-11-52.jpg'>"
 
 document.getElementById("text-track").innerHTML =
-  "<p class='list moveright'>custom tailoring <span class='dot'>&#183;</span> modern style <span class='dot'>&#183;</span> perfect fit <span class='dash'>&mdash;</span></p> <h1 class='head moveright'>Style That Fits <span class='head1'>Your Life</span></h1> <p class='description moveright'>At Sleek 'N' Casual, we design and stitch quality outfits that bring out your best. From everyday wear to special occasions, we make sure you look good, feel geart, and always fit right.</p> ";
+  "<p class='list moveright'>custom tailoring <span class='dot'>&#183;</span> modern style <span class='dot'>&#183;</span> perfect fit <span class='dash'>&mdash;</span></p> <h1 class='head moveright'>Style That Fits <span class='head1'>Your Life</span></h1> <p class='description moveright'>At Sleek 'N' Casual, we design and stitch quality outfits that bring out your best. From everyday wear to special occasions, we make sure you look good, feel great, and always fit right.</p> ";
 
 document.getElementById("name").innerHTML =
   "<h2 class='moveright'><span class='w1'>Sleek</span><span class='w2'>'N'</span><span class='w3'>Casual</span></h2>";
